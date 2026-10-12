@@ -1,0 +1,1 @@
+function e(e){if(!e.startsWith(`/`)||e.startsWith(`//`)||e===`/`)return e;let t=e.match(/^([^?#]*)(.*)$/),n=t?.[1]??e,r=t?.[2]??``;return n.endsWith(`/`)||/\.[a-z0-9]+$/i.test(n)?e:`${n}/${r}`}export{e as t};
