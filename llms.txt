@@ -65,3 +65,28 @@ Important notes:
 - [Editorial Policy](https://aspirecompass.org/editorial-policy/): Read how information is researched, dated, sourced, updated, and corrected.
 - [Contact AspireCompass](https://aspirecompass.org/contact/): Submit questions, corrections, or source updates.
 - [Disclaimer](https://aspirecompass.org/disclaimer/): Understand the limits of summaries, calculators, and planning guidance.
+## Spanish Resources
+
+- [AspireCompass en español](https://aspirecompass.org/es/): Spanish-language study guides, scholarship planning, academic calculators, and application preparation.
+- [Herramientas académicas](https://aspirecompass.org/es/herramientas/): Free academic calculators with formulas, examples, and limitations.
+- [Guías en español](https://aspirecompass.org/es/guias/): Academic guidance, application documents, and study planning.
+
+## Spain Study and Scholarship Guides — Spanish
+
+- [Estudiar en España](https://aspirecompass.org/es/paises/espana/): Plan admission, programme selection, funding, costs, and study-related travel.
+- [Becas para estudiar en España](https://aspirecompass.org/es/paises/espana/becas/): Compare scholarship eligibility, coverage, personal contributions, and application stages.
+- [Másteres en España](https://aspirecompass.org/es/paises/espana/masters/): Understand programme types, access with foreign qualifications, documentation, and costs.
+- [Visado de estudios para España](https://aspirecompass.org/es/paises/espana/visado-estudiante/): Organise questions about the applicable procedure, financial evidence, insurance, and consular instructions.
+- [Universidades en España para extranjeros](https://aspirecompass.org/es/paises/espana/universidades/): Compare programmes using official university resources, admission conditions, language, and fees.
+- [Requisitos para estudiar en España](https://aspirecompass.org/es/paises/espana/requisitos/): Distinguish undergraduate and master's admission routes, educational-system requirements, and document preparation.
+- [Becas Fundación Carolina](https://aspirecompass.org/es/paises/espana/becas-fundacion-carolina/): Review postgraduate eligibility, programme selection, funding conditions, and application preparation. Historical deadlines are identified as closed; verify the current official call.
+
+## Spanish Academic Calculators and Application Guides
+
+- [Calculadora de notas](https://aspirecompass.org/es/herramientas/calculadora-de-notas/): Calculate averages, weighted grades, and the grade needed in a final examination.
+- [Calculadora GPA](https://aspirecompass.org/es/herramientas/calculadora-gpa/): Calculate credit-weighted GPA using institution-defined grade points; it does not provide an official international equivalence.
+- [Calculadora de asistencia](https://aspirecompass.org/es/herramientas/calculadora-de-asistencia/): Estimate attendance and absence margins using the student's institutional requirements.
+- [Calculadora de examen](https://aspirecompass.org/es/herramientas/calculadora-nota-examen/): Estimate examination scores using configurable marking and penalty rules.
+- [CV de estudiante](https://aspirecompass.org/es/guias/cv-estudiante-sin-experiencia/): Prepare a student CV using education, projects, and demonstrable skills.
+- [Carta de motivación para una beca](https://aspirecompass.org/es/guias/carta-motivacion-beca/): Connect academic preparation, programme fit, and future goals with personal evidence.
+- [Política editorial en español](https://aspirecompass.org/es/politica-editorial/): Understand sourcing, examples, corrections, and the limits of planning guidance.
