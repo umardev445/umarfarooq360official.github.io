@@ -9,6 +9,13 @@ Important notes:
 - Scholarship and opportunity statuses can change. A source-check date records when AspireCompass last reviewed the information, not a guarantee that it remains unchanged.
 - Calculator results and grade conversions are planning estimates unless an institution explicitly accepts the same method.
 
+## Languages and content scope
+
+- English content covers scholarships, international opportunities, study destinations and application planning.
+- The Spanish section under /es/ contains its own academic calculators, application guides, Spain cluster and policies. It is not a translation of every English page.
+- Only equivalent pages use language-alternate relationships. Use each page’s canonical URL and language.
+- Illustrative study scenes and fictional examples are educational material, not evidence of admission, scholarship awards or institutional endorsement.
+
 ## Core Resources
 
 - [AspireCompass](https://aspirecompass.org/): Start with verified scholarship routes, study-abroad guidance, planning tools, and current opportunities.
@@ -65,28 +72,34 @@ Important notes:
 - [Editorial Policy](https://aspirecompass.org/editorial-policy/): Read how information is researched, dated, sourced, updated, and corrected.
 - [Contact AspireCompass](https://aspirecompass.org/contact/): Submit questions, corrections, or source updates.
 - [Disclaimer](https://aspirecompass.org/disclaimer/): Understand the limits of summaries, calculators, and planning guidance.
-## Spanish Resources
 
-- [AspireCompass en español](https://aspirecompass.org/es/): Spanish-language study guides, scholarship planning, academic calculators, and application preparation.
-- [Herramientas académicas](https://aspirecompass.org/es/herramientas/): Free academic calculators with formulas, examples, and limitations.
-- [Guías en español](https://aspirecompass.org/es/guias/): Academic guidance, application documents, and study planning.
+## Recursos en español: estudios, herramientas y candidaturas
 
-## Spain Study and Scholarship Guides — Spanish
-
-- [Estudiar en España](https://aspirecompass.org/es/paises/espana/): Plan admission, programme selection, funding, costs, and study-related travel.
-- [Becas para estudiar en España](https://aspirecompass.org/es/paises/espana/becas/): Compare scholarship eligibility, coverage, personal contributions, and application stages.
-- [Másteres en España](https://aspirecompass.org/es/paises/espana/masters/): Understand programme types, access with foreign qualifications, documentation, and costs.
-- [Visado de estudios para España](https://aspirecompass.org/es/paises/espana/visado-estudiante/): Organise questions about the applicable procedure, financial evidence, insurance, and consular instructions.
-- [Universidades en España para extranjeros](https://aspirecompass.org/es/paises/espana/universidades/): Compare programmes using official university resources, admission conditions, language, and fees.
-- [Requisitos para estudiar en España](https://aspirecompass.org/es/paises/espana/requisitos/): Distinguish undergraduate and master's admission routes, educational-system requirements, and document preparation.
-- [Becas Fundación Carolina](https://aspirecompass.org/es/paises/espana/becas-fundacion-carolina/): Review postgraduate eligibility, programme selection, funding conditions, and application preparation. Historical deadlines are identified as closed; verify the current official call.
-
-## Spanish Academic Calculators and Application Guides
-
-- [Calculadora de notas](https://aspirecompass.org/es/herramientas/calculadora-de-notas/): Calculate averages, weighted grades, and the grade needed in a final examination.
-- [Calculadora GPA](https://aspirecompass.org/es/herramientas/calculadora-gpa/): Calculate credit-weighted GPA using institution-defined grade points; it does not provide an official international equivalence.
-- [Calculadora de asistencia](https://aspirecompass.org/es/herramientas/calculadora-de-asistencia/): Estimate attendance and absence margins using the student's institutional requirements.
-- [Calculadora de examen](https://aspirecompass.org/es/herramientas/calculadora-nota-examen/): Estimate examination scores using configurable marking and penalty rules.
-- [CV de estudiante](https://aspirecompass.org/es/guias/cv-estudiante-sin-experiencia/): Prepare a student CV using education, projects, and demonstrable skills.
-- [Carta de motivación para una beca](https://aspirecompass.org/es/guias/carta-motivacion-beca/): Connect academic preparation, programme fit, and future goals with personal evidence.
-- [Política editorial en español](https://aspirecompass.org/es/politica-editorial/): Understand sourcing, examples, corrections, and the limits of planning guidance.
+- [Estudios, becas y herramientas para estudiantes en español](https://aspirecompass.org/es/): Prepara tus estudios en España, compara becas y requisitos, y utiliza calculadoras académicas y guías de CV y motivación en español.
+- [Calculadoras académicas para estudiantes](https://aspirecompass.org/es/herramientas/): Cuatro calculadoras gratuitas: promedio y nota final, GPA, asistencia y examen tipo test. Configura tus datos y revisa fórmulas y límites.
+- [Guías académicas y de candidaturas en español](https://aspirecompass.org/es/guias/): Guías académicas, CV y motivación, más admisión, másteres y becas para España. Encuentra la explicación y el siguiente paso de tu candidatura.
+- [Calculadora de notas: promedio y nota final](https://aspirecompass.org/es/herramientas/calculadora-de-notas/): Calcula un promedio simple o ponderado por porcentajes y créditos. Descubre qué nota necesitas en el examen final con una escala configurable.
+- [Calculadora GPA con créditos y promedio acumulado](https://aspirecompass.org/es/herramientas/calculadora-gpa/): Calcula GPA del período y acumulado con créditos y puntos de nota. Excluye cursos solo según tu reglamento y comprueba los pasos del cálculo.
+- [Calculadora de asistencia y margen de faltas](https://aspirecompass.org/es/herramientas/calculadora-de-asistencia/): Calcula tu asistencia actual, clases necesarias y margen de ausencias hasta el final. Elige el mínimo de tu institución y revisa si es alcanzable.
+- [Calculadora de nota de examen tipo test](https://aspirecompass.org/es/herramientas/calculadora-nota-examen/): Estima la nota de un examen con aciertos, errores y blancos. Elige sin penalización, corrección por opciones o una penalización personalizada.
+- [Cómo calcular el promedio universitario con créditos](https://aspirecompass.org/es/guias/como-calcular-promedio-universitario/): Calcula la media de tu expediente por créditos, combina semestres y revisa asignaturas repetidas, exclusiones y redondeo con ejemplos resueltos.
+- [Cómo calcular un promedio ponderado paso a paso](https://aspirecompass.org/es/guias/como-calcular-promedio-ponderado/): Aprende a calcular un promedio ponderado con porcentajes o créditos. Compara con la media simple y evita errores al mezclar evaluaciones pendientes.
+- [Escalas de calificaciones: notas, porcentajes y GPA](https://aspirecompass.org/es/guias/escalas-de-calificaciones/): Compara ejemplos de escalas académicas y distingue una nota, un porcentaje y un GPA. Aprende qué comprobar antes de convertir un expediente.
+- [Cómo calcular GPA con puntos de nota y créditos](https://aspirecompass.org/es/guias/como-calcular-gpa/): Aprende la fórmula del GPA, calcula un ejemplo por créditos y combina períodos. Revisa exclusiones, asignaturas repetidas y conversiones internacionales.
+- [Qué nota necesito en el examen final: fórmula y ejemplos](https://aspirecompass.org/es/guias/que-nota-necesito-examen-final/): Calcula la nota necesaria para alcanzar tu objetivo final. Entiende el peso del examen, los objetivos imposibles y las condiciones adicionales de aprobación.
+- [Cómo calcular el porcentaje de asistencia y las faltas](https://aspirecompass.org/es/guias/como-calcular-porcentaje-asistencia/): Calcula asistencia por sesiones, interpreta las clases pendientes y comprueba tu margen de faltas con ejemplos de 75 %, 80 % y objetivos no alcanzables.
+- [CV de estudiante sin experiencia: estructura y ejemplo](https://aspirecompass.org/es/guias/cv-estudiante-sin-experiencia/): Prepara un CV de estudiante sin experiencia laboral con formación, proyectos y habilidades demostrables. Incluye un ejemplo y una lista de revisión.
+- [Carta de motivación para una beca: estructura y ejemplos](https://aspirecompass.org/es/guias/carta-motivacion-beca/): Redacta una carta de motivación para una beca con objetivos claros, evidencia académica y ajuste al programa. Revisa ejemplos, errores y requisitos.
+- [Sobre AspireCompass y su sección en español](https://aspirecompass.org/es/sobre-nosotros/): Conoce AspireCompass, su editor, el propósito de la sección en español y cómo utilizamos fuentes oficiales, ejemplos y correcciones.
+- [Contacto y correcciones de AspireCompass](https://aspirecompass.org/es/contacto/): Comunica errores, enlaces rotos o cambios de información a AspireCompass. Incluye la URL y una fuente oficial sin enviar documentos personales.
+- [Política editorial: fuentes, ejemplos y correcciones](https://aspirecompass.org/es/politica-editorial/): Cómo AspireCompass prepara guías, verifica fuentes y cálculos, comunica límites y revisa correcciones en la sección en español.
+- [Política de privacidad de AspireCompass en español](https://aspirecompass.org/es/privacidad/): Información sobre datos de contacto, cálculos locales, analítica opcional, cookies y enlaces externos al utilizar AspireCompass en español.
+- [Términos de uso de AspireCompass en español](https://aspirecompass.org/es/terminos/): Condiciones para usar las guías y calculadoras de AspireCompass. Verificación oficial, uso aceptable, propiedad intelectual y servicios externos.
+- [Aviso legal y límites de la información de AspireCompass](https://aspirecompass.org/es/aviso-legal/): Comprende los límites de las estimaciones, guías y enlaces de AspireCompass. Las instituciones y convocatorias oficiales deciden los requisitos y resultados.
+- [Estudiar en España: guía para estudiantes internacionales](https://aspirecompass.org/es/paises/espana/): Organiza tu plan para estudiar en España: admisión, universidades, másteres, becas, presupuesto y visado. Elige la ruta que corresponde a tu formación.
+- [Becas para estudiar en España: compara tus opciones](https://aspirecompass.org/es/paises/espana/becas/): Compara becas para España por elegibilidad, cobertura y costes pendientes. Revisa Fundación Carolina, Erasmus Mundus y ayudas universitarias.
+- [Másteres en España para extranjeros: acceso y costes](https://aspirecompass.org/es/paises/espana/masters/): Aprende a elegir una maestría en España, comprobar el título y preparar el acceso con estudios extranjeros. Compara documentación, costes y financiación.
+- [Visado de estudios para España: preparación y requisitos](https://aspirecompass.org/es/paises/espana/visado-estudiante/): Organiza tu visado de estudiante para España: oficina competente, evidencias, financiación, seguro y calendario. Confirma las instrucciones de tu caso.
+- [Universidades en España para extranjeros: cómo elegir](https://aspirecompass.org/es/paises/espana/universidades/): Encuentra universidades y programas en España con recursos oficiales. Compara acceso, títulos, idioma, matrícula y apoyo a estudiantes internacionales.
+- [Requisitos para estudiar en España siendo extranjero](https://aspirecompass.org/es/paises/espana/requisitos/): Distingue acceso a grado y máster en España. Organiza documentos, acreditaciones, idiomas y fechas según tus estudios previos y universidad.
+- [Becas Fundación Carolina: requisitos y candidatura](https://aspirecompass.org/es/paises/espana/becas-fundacion-carolina/): Prepara tu candidatura a Fundación Carolina: elegibilidad, selección de programas, financiación y documentos. Consulta el estado del ciclo 2026-2027.
