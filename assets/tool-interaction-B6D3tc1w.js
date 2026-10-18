@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-S-ySWqyJ.js";import{i as t,r as n}from"./framework-DjPHiq1u.js";import{t as r}from"./analytics-CPINfPEx.js";var i=e(t(),1),a=n();function o({id:e,children:t}){let n=(0,i.useRef)(!1);return(0,a.jsx)(`div`,{onChange:()=>{n.current||=(r(`tool_interaction`,{tool_id:e}),!0)},children:t})}export{o as ToolInteraction};
