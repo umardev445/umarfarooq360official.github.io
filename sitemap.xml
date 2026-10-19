@@ -17,7 +17,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -28,6 +28,11 @@
   <url>
     <loc>https://aspirecompass.org/countries/canada/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/countries/china/</loc>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -392,7 +397,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -406,6 +411,16 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/csc-scholarship-application/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/csc-scholarship-type-a-vs-type-b/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/germany-student-visa-requirements/</loc>
     <lastmod>2026-10-13</lastmod>
   </url>
@@ -413,6 +428,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/germany-university-application-deadlines/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/hec-chinese-government-scholarship/</loc>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -443,6 +463,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/italy-university-application-deadlines/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/jiangsu-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -496,6 +521,11 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/shandong-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/statement-of-purpose/</loc>
     <lastmod>2026-10-13</lastmod>
   </url>
@@ -523,6 +553,16 @@
   <url>
     <loc>https://aspirecompass.org/guides/university-of-padua-admissions-scholarships/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/xiamen-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/zhejiang-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -557,12 +597,12 @@
 
   <url>
     <loc>https://aspirecompass.org/resources/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -573,6 +613,11 @@
   <url>
     <loc>https://aspirecompass.org/scholarships/chevening/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/chinese-government-scholarship/</loc>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
@@ -623,6 +668,11 @@
   <url>
     <loc>https://aspirecompass.org/scholarships/phd/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/shanghai-government-scholarship/</loc>
+    <lastmod>2026-10-19</lastmod>
   </url>
 
   <url>
