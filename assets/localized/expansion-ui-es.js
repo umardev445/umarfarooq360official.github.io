@@ -6,7 +6,9 @@
   const format=n=>n===null?'No definida':new Intl.NumberFormat('es',{maximumFractionDigits:6,...(n!==0&&Math.abs(n)<.000001?{notation:'scientific',maximumFractionDigits:4}:{})}).format(n);
   const result=$('study-result'), form=$('study-tool');
   let plainOutput='',lastStats=null,lastAPA=null,library=[];
-  const message=(html,error=false)=>{if(result){result.classList.toggle('error',error);result.innerHTML=html;plainOutput=result.innerText;}};
+  const message=(html,error=false)=>{if(result){result.classList.toggle('error',error);result.classList.remove('result-stale');result.dataset.dirty='false';result.innerHTML=html;plainOutput=result.innerText;}};
+  function markStale(){if(!result||form?.dataset.studyTool==='timer'||result.dataset.dirty==='true')return;result.dataset.dirty='true';result.classList.add('result-stale');result.insertAdjacentHTML('afterbegin','<p class="freshness-note">Datos modificados: vuelve a calcular para actualizar el resultado.</p>');}
+  function removeRow(row){const siblings=[...row.parentElement.children],index=siblings.indexOf(row),next=siblings[index+1]||siblings[index-1];row.remove();(next?.querySelector('input')||form.querySelector('[data-action=add]'))?.focus();markStale();const status=$('tool-feedback');if(status)status.textContent='Fila eliminada. Vuelve a calcular.';}
   const safe=fn=>{try{return fn();}catch(e){if(form?.dataset.studyTool==='timer'&&$('timer-status')){$('timer-status').textContent=e.message;result.classList.add('error');}else message('<p><strong>Revisa los datos.</strong> '+esc(e.message)+'</p>',true);}};
   const metric=(label,value)=>`<div class="metric"><strong>${value}</strong><span>${label}</span></div>`;
   const table=(caption,heads,rows)=>`<div class="table-wrap" tabindex="0" role="region" aria-label="${esc(caption)}"><table><caption>${esc(caption)}</caption><thead><tr>${heads.map(x=>'<th scope="col">'+esc(x)+'</th>').join('')}</tr></thead><tbody>${rows.map(r=>'<tr>'+r.map(x=>'<td>'+x+'</td>').join('')+'</tr>').join('')}</tbody></table></div>`;
@@ -26,11 +28,11 @@
   }
   let rowId=0;
   function input(label,id,value,extra=''){return `<div class="field"><label for="${id}">${label}</label><input id="${id}" value="${esc(value)}" ${extra}></div>`;}
-  function addTask(t={name:'',hours:'',priority:'2',deadline:''}){
+  function addTask(t={name:'',hours:'',priority:'2',deadline:''},focus=false){
     if($('plan-rows').children.length>=20)throw Error('Puedes planificar hasta 20 tareas por semana.');
     const el=document.createElement('div'),id=++rowId;el.className='study-row';el.dataset.row=String(id);
     el.innerHTML=input('Asignatura u objetivo','plan-name-'+id,t.name,'type="text" maxlength="120"')+input('Horas pendientes','plan-hours-'+id,t.hours,'type="text" inputmode="decimal"')+`<div class="field"><label for="plan-priority-${id}">Prioridad</label><select id="plan-priority-${id}">${[1,2,3].map(v=>`<option value="${v}"${String(t.priority)===String(v)?' selected':''}>${v}${v===1?' · alta':''}</option>`).join('')}</select></div>`+input('Límite (opcional)','plan-deadline-'+id,t.deadline,'type="date"')+`<button type="button" class="secondary remove-study-row" aria-label="Eliminar tarea ${id}">Quitar</button>`;
-    el.querySelector('button').addEventListener('click',()=>el.remove());$('plan-rows').append(el);
+    el.querySelector('button').addEventListener('click',()=>removeRow(el));$('plan-rows').append(el);if(focus){el.querySelector('input').focus();markStale();}
   }
   const taskData=()=>[...$('plan-rows').children].map(el=>{const n=el.dataset.row;return {name:$('plan-name-'+n).value,hours:$('plan-hours-'+n).value,priority:$('plan-priority-'+n).value,deadline:$('plan-deadline-'+n).value};});
   const planData=()=>({start:$('plan-start').value,reserve:$('plan-buffer').value,availability:Array.from({length:7},(_,i)=>$('plan-day-'+i).value),tasks:taskData()});
@@ -48,13 +50,13 @@
     const d=saved||{start:today,reserve:'0',availability:[2,2,2,2,2,0,0],tasks:[{name:'Estadística: ejercicios',hours:8,priority:1},{name:'Lectura y esquema',hours:6,priority:2},{name:'Repaso activo',hours:3.5,priority:3}]};
     $('plan-start').value=d.start||today;$('plan-buffer').value=d.reserve??0;
     for(let i=0;i<7;i++)$('plan-day-'+i).value=d.availability?.[i]??0;
-    $('plan-rows').replaceChildren();(Array.isArray(d.tasks)?d.tasks.slice(0,20):[]).forEach(addTask);dateLabels();
+    $('plan-rows').replaceChildren();(Array.isArray(d.tasks)?d.tasks.slice(0,20):[]).forEach(task=>addTask(task));dateLabels();
   }
-  function addSubject(s={name:'',grade:'',weight:'.2'}){
+  function addSubject(s={name:'',grade:'',weight:'.2'},focus=false){
     if($('admission-rows').children.length>=6)throw Error('Introduce como máximo seis materias.');
     const id=++rowId,el=document.createElement('div');el.className='study-row subject-row';el.dataset.row=id;
     el.innerHTML=input('Materia','subject-name-'+id,s.name,'type="text" maxlength="100"')+input('Nota (0–10)','subject-grade-'+id,s.grade,'type="text" inputmode="decimal"')+`<div class="field"><label for="subject-weight-${id}">Ponderación</label><select id="subject-weight-${id}">${[0,.1,.2].map(v=>`<option value="${v}"${Number(s.weight)===v?' selected':''}>${format(v)}</option>`).join('')}</select></div><button type="button" class="secondary" aria-label="Quitar materia ${id}">Quitar</button>`;
-    el.querySelector('button').addEventListener('click',()=>el.remove());$('admission-rows').append(el);
+    el.querySelector('button').addEventListener('click',()=>removeRow(el));$('admission-rows').append(el);if(focus){el.querySelector('input').focus();markStale();}
   }
   function admission(){
     const subjects=[...$('admission-rows').children].map(el=>{const n=el.dataset.row;return{name:$('subject-name-'+n).value,grade:$('subject-grade-'+n).value,weight:$('subject-weight-'+n).value};});
@@ -97,7 +99,7 @@
       target.textContent='Metadatos recuperados. Confirma autores, tipo de fuente, año y título con la obra; Crossref puede contener registros incompletos.';
     }catch(e){target.textContent=e.name==='AbortError'?'La consulta tardó demasiado. Puedes completar los campos manualmente.':e.message||'No se pudo consultar. Completa los campos manualmente.';}finally{button.disabled=false;}
   }
-  let timer,interval,audioContext,timerHistory=[];
+  let timer,audioContext,timerHistory=[];
   const phaseLabel={focus:'Concentración',short:'Descanso corto',long:'Descanso largo'};
   function sound(){
     const C=window.AudioContext||window.webkitAudioContext;if(!C){$('timer-status').textContent='Este navegador no ofrece el sonido de prueba.';return;}
@@ -130,7 +132,7 @@
     }
     if(type==='apa'){apaFields();showLibrary();for(const k of ['type','noAuthor','noDate'])$('apa-'+k).addEventListener('change',apaFields);form.addEventListener('input',()=>lastAPA=null);}
     if(type==='timer'){
-      timer=M.timerState();renderTimer();interval=setInterval(()=>doTimer('tick'),250);
+      timer=M.timerState();renderTimer();const interval=setInterval(()=>{if(timer.running)doTimer('tick');},250);window.addEventListener('pagehide',event=>{if(!event.persisted)clearInterval(interval);});
       try{const h=JSON.parse(localStorage.getItem('aspire-focus-history-v1')||'null');if(Array.isArray(h)){timerHistory=h.filter(x=>x&&Number.isFinite(x.minutes)&&x.minutes>0&&typeof x.task==='string'&&typeof x.date==='string').slice(0,30);$('timer-save').checked=true;}}catch{}renderHistory();
       $('timer-save').addEventListener('change',()=>{if(!$('timer-save').checked){timerHistory=[];try{localStorage.removeItem('aspire-focus-history-v1');}catch{}renderHistory();}});
       document.addEventListener('visibilitychange',()=>doTimer('tick'));
@@ -138,25 +140,26 @@
       try{const task=sessionStorage.getItem('aspire-session-task');if(task){$('timer-task').value=task.slice(0,120);$('timer-task-view').textContent=task.slice(0,120);sessionStorage.removeItem('aspire-session-task');}}catch{}
       document.addEventListener('keydown',e=>{if(e.code==='Space'&&!['INPUT','TEXTAREA','SELECT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName)){e.preventDefault();doTimer(timer.running?'pause':'start');}});
     }
+    if(type!=='timer'){form.addEventListener('input',markStale);form.addEventListener('change',markStale);}
     form.addEventListener('submit',e=>{e.preventDefault();safe(()=>{if(type==='stats')statistics();if(type==='planner')planner();if(type==='admission')admission();if(type==='apa')citation();if(type==='timer'){timer=M.timerState({focus:$('timer-focus').value,short:$('timer-short').value,long:$('timer-long').value,cycles:$('timer-cycles').value});renderTimer();$('timer-status').textContent='Nuevo ciclo listo; los contadores se han puesto a cero.';}});});
     form.addEventListener('click',e=>{
       const b=e.target.closest('[data-action]');if(!b)return;const action=b.dataset.action;
       if(action==='lookup'){lookup();return;}
       safe(()=>{
-        if(action==='print'){window.print();return;}
+        if(action==='print'){if(type==='stats')statistics();else if(type==='planner')planner();else if(type==='admission')admission();else if(type==='apa')citation();window.print();return;}
         if(type==='stats'){
           if(action==='example'){$('stat-data').value='2; 4; 4; 6; 9';statistics();}
           if(action==='clear'){$('stat-data').value='';lastStats=null;message('<p>Lista vacía. Introduce tus datos.</p>');$('stat-data').focus();}
           if(action==='csv'){statistics();download('estadistica-aspirecompass.csv','\uFEFF'+[['valor','frecuencia'],...lastStats.frequency.map(x=>[x.value,x.count])].map(row=>row.map(csvCell).join(';')).join('\r\n'),'text/csv;charset=utf-8');}
         }
         if(type==='planner'){
-          if(action==='add')addTask();
+          if(action==='add')addTask(undefined,true);
           if(action==='example'){seedPlan();planner();}
           if(action==='clear'){try{localStorage.removeItem('aspire-study-plan-v1');}catch{}$('plan-save').checked=false;$('plan-storage').textContent='Guardado desactivado; copia local eliminada.';$('plan-rows').replaceChildren();addTask();message('<p>Plan eliminado. Revisa la disponibilidad antes de volver a calcular.</p>');}
           if(action==='copy'){planner();copy(plainOutput).catch(e=>message('<p>'+esc(e.message)+'</p>',true));}
         }
         if(type==='admission'){
-          if(action==='add')addSubject();
+          if(action==='add')addSubject(undefined,true);
           if(action==='example'){$('admission-route').value='pau';$('admission-route').dispatchEvent(new Event('change'));$('admission-b').value=8;$('admission-f').value=7;$('admission-rows').replaceChildren();addSubject({name:'Materia A',grade:9,weight:.2});addSubject({name:'Materia B',grade:8,weight:.2});admission();}
           if(action==='clear'){$('admission-b').value='';$('admission-f').value='';$('admission-access').value='';$('admission-rows').replaceChildren();message('<p>Datos eliminados. Selecciona tu vía e introduce tus calificaciones.</p>');}
         }

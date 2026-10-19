@@ -7,9 +7,14 @@
   const value = id => el(id).value;
   const num = (id, label) => M.number(value(id), label);
   const fmt = n => new Intl.NumberFormat(document.documentElement.lang||'es', {maximumFractionDigits: 3}).format(n);
+  const fmtMinimum = n => new Intl.NumberFormat(document.documentElement.lang||'es', {maximumFractionDigits: 12}).format(n);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let serial = 0, edited = false, measured = false, lastValid = false;
   const result = el('result');
+  const feedback = el('tool-feedback');
+  let inputDelay;
+  const announce = text => { if (feedback) feedback.textContent = text; };
+  function scheduleCalculation() { mark(); lastValid = false; clearTimeout(inputDelay); inputDelay = setTimeout(calculate, 180); }
   const metric = (label, number) => '<div class="metric"><strong>' + esc(number) + '</strong><span>' + esc(label) + '</span></div>';
   function show(label, amount, explanation, metrics = [], warning = false) {
     result.className = 'result' + (warning ? ' error' : '');
@@ -62,9 +67,9 @@
         const min = num('scale-min','Mínimo de la escala'), max = num('scale-max','Máximo de la escala');
         if (value('mode') === 'target') {
           const r = M.target(num('current','Promedio ya evaluado'),num('final-weight','Peso del examen'),num('desired','Nota objetivo'),min,max);
-          const amount = r.status === 'impossible' ? fmt(r.required) + ' / ' + fmt(max) : fmt(r.value) + ' / ' + fmt(max);
-          const label = r.status === 'impossible' ? 'El objetivo supera lo alcanzable con esta escala.' : r.status === 'met' ? 'Basta el mínimo de la escala para alcanzar este objetivo matemático.' : 'Nota mínima matemática en el examen pendiente.';
-          const explanation = 'Fórmula: (' + fmt(r.desired) + ' − ' + fmt(r.current) + ' × ' + fmt(1-r.w) + ') ÷ ' + fmt(r.w) + ' = ' + fmt(r.required) + '. No contempla una nota mínima separada en el examen ni otras reglas del curso.';
+          const amount = r.status === 'impossible' ? fmt(r.required) + ' / ' + fmt(max) : fmtMinimum(r.practical) + ' / ' + fmtMinimum(max);
+          const label = r.status === 'impossible' ? 'El objetivo supera lo alcanzable con esta escala.' : r.status === 'met' ? 'Basta el mínimo de la escala para alcanzar este objetivo matemático.' : 'Nota mínima práctica, redondeada hacia arriba a tres decimales.';
+          const explanation = 'Fórmula: (' + fmt(r.desired) + ' − ' + fmt(r.current) + ' × ' + fmt(1-r.w) + ') ÷ ' + fmt(r.w) + ' ≈ ' + fmt(r.required) + '. El mínimo práctico se redondea hacia arriba para no quedar por debajo del objetivo; aplica también el redondeo de tu institución. No contempla una nota mínima separada en el examen ni otras reglas del curso.';
           show(label, amount, explanation, [metric('Mejor nota final posible',fmt(r.best)),metric('Peso del examen',fmt(r.w*100)+' %')],r.status === 'impossible');
         } else {
           const rows = [...form.querySelectorAll('[data-grade-row]')].map((row,i) => ({grade:M.number(row.querySelector('[data-grade]').value,'Nota '+(i+1)),weight:value('mode')==='simple'?1:M.number(row.querySelector('[data-weight]').value,'Peso '+(i+1))}));
@@ -113,23 +118,25 @@
     }
     calculate();
   }
-  form.addEventListener('input',()=>{mark();calculate();});
-  form.addEventListener('change',()=>{mark();calculate();});
-  form.addEventListener('submit',event=>{event.preventDefault();mark();calculate();});
+  form.addEventListener('input',scheduleCalculation);
+  form.addEventListener('change',()=>{clearTimeout(inputDelay);mark();calculate();});
+  form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(inputDelay);mark();calculate();announce(result.innerText);});
   form.addEventListener('click',event=>{
     const button = event.target.closest('button');
     if(!button) return;
     if(button.hasAttribute('data-remove')) {
       const rows = form.querySelectorAll('.input-row');
-      if(rows.length > 1) {button.closest('.input-row').remove();mark();calculate();}
+      if(rows.length > 1) {const current=button.closest('.input-row'),list=[...rows],index=list.indexOf(current),next=list[index+1]||list[index-1];current.remove();next.querySelector('input').focus();mark();calculate();announce('Fila eliminada. Resultado actualizado.');}
       else {result.className='result error';result.innerHTML='<p>Conserva al menos una fila. Puedes borrar sus valores o usar «Limpiar».</p>';lastValid=false;}
     } else if(button.id==='add-row') {
       if(form.querySelectorAll('.input-row').length >= 30) {result.className='result error';result.innerHTML='<p>El formulario admite 30 filas por cálculo. Divide un historial más largo en períodos y combina sus créditos y puntos.</p>';lastValid=false;return;}
-      addRow({},true);mark();calculate();
+      addRow({},true);mark();calculate();announce('Fila añadida. Completa sus valores.');
     } else if(button.id==='example') {edited=false;populate(true);}
-    else if(button.id==='clear') {mark();populate(false);}
-    else if(button.id==='print') {calculate();if(lastValid)window.print();}
+    else if(button.id==='clear') {mark();populate(false);form.querySelector('input:not([type=checkbox])')?.focus();announce('Formulario limpio. Introduce tus datos.');}
+    else if(button.id==='print') {clearTimeout(inputDelay);calculate();if(lastValid)window.print();else announce('Revisa los datos antes de imprimir.');}
+    else if(button.id==='copy-result') {calculate();if(!lastValid){announce('Revisa los datos antes de copiar.');return;}const text=result.innerText;const copy=async()=>{try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);}else{const box=document.createElement('textarea');box.value=text;box.setAttribute('readonly','');box.style.position='fixed';box.style.opacity='0';document.body.append(box);box.select();const copied=document.execCommand('copy');box.remove();button.focus({preventScroll:true});if(!copied)throw Error('copy');}announce('Resultado copiado.');}catch{announce('No se pudo copiar. Selecciona el resultado manualmente.');}};copy();}
   });
+  const copyButton=document.createElement('button');copyButton.type='button';copyButton.id='copy-result';copyButton.className='secondary';copyButton.textContent='Copiar resultado';form.querySelector('.actions').append(copyButton);
   populate(true);
 })();
 

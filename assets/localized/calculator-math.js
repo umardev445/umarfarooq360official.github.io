@@ -53,7 +53,8 @@
     const required = checkResult((desired - current * (1 - w)) / w);
     const best = checkResult(current * (1 - w) + max * w);
     const epsilon = Number.EPSILON * Math.max(1, Math.abs(max), Math.abs(required)) * 16;
-    return {required, value: Math.max(min, required), best, status: required > max + epsilon ? 'impossible' : required <= min + epsilon ? 'met' : 'possible', w, current, desired};
+    const practical = Math.min(max, Math.max(min, Math.ceil((required - epsilon) * 1000) / 1000));
+    return {required, practical, value: Math.max(min, required), best, status: required > max + epsilon ? 'impossible' : required <= min + epsilon ? 'met' : 'possible', w, current, desired};
   }
   function gpa(rows, max, priorCredits = 0, priorGpa = null) {
     finite(max, 'Máximo de puntos');
