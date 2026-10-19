@@ -1,0 +1,67 @@
+{
+  "campus": {
+    "key": "campus",
+    "src": "/images/design/es/campus-1280.webp",
+    "smallSrc": "/images/design/es/campus-640.webp",
+    "thumbSrc": "/images/design/es/campus-384.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Dos estudiantes conversan con sus cuadernos en el patio de un campus ilustrativo.",
+    "caption": "Imagen ilustrativa creada con IA; no representa una universidad ni estudiantes identificados."
+  },
+  "spain": {
+    "key": "spain",
+    "src": "/images/design/es/spain-1280.webp",
+    "smallSrc": "/images/design/es/spain-640.webp",
+    "thumbSrc": "/images/design/es/spain-384.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Estudiantes caminan entre edificios de piedra y árboles en un campus ilustrativo de estilo español.",
+    "caption": "Escena ilustrativa creada con IA, inspirada en la arquitectura española; no identifica una universidad real."
+  },
+  "grades": {
+    "key": "grades",
+    "src": "/images/design/es/grades-1280.webp",
+    "smallSrc": "/images/design/es/grades-640.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Calculadora, cuaderno abierto y material de estudio sobre un escritorio iluminado por el sol.",
+    "caption": "Material de estudio ilustrativo creado con IA; no muestra resultados de una calculadora real."
+  },
+  "planning": {
+    "key": "planning",
+    "src": "/images/design/es/planning-1280.webp",
+    "smallSrc": "/images/design/es/planning-640.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Una estudiante organiza su cuaderno y notas adhesivas junto a un portátil en una biblioteca ilustrativa.",
+    "caption": "Escena de planificación ilustrativa creada con IA; la persona y la biblioteca no están identificadas."
+  },
+  "research": {
+    "key": "research",
+    "src": "/images/design/es/research-1280.webp",
+    "smallSrc": "/images/design/es/research-640.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Dos estudiantes revisan un gráfico ilustrativo en un portátil dentro de una biblioteca.",
+    "caption": "Imagen ilustrativa creada con IA; el gráfico es decorativo y no contiene datos de investigación."
+  },
+  "documents": {
+    "key": "documents",
+    "src": "/images/design/es/documents-1280.webp",
+    "smallSrc": "/images/design/es/documents-640.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Manos organizan hojas en blanco junto a una carpeta y un portátil sobre una mesa de estudio.",
+    "caption": "Imagen ilustrativa creada con IA; las hojas no son documentos oficiales ni contienen datos personales."
+  },
+  "career": {
+    "key": "career",
+    "src": "/images/design/es/career-1280.webp",
+    "smallSrc": "/images/design/es/career-640.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Una estudiante toma notas durante una conversación de orientación en un espacio académico ilustrativo.",
+    "caption": "Escena de orientación ilustrativa creada con IA; no representa asesoras ni estudiantes reales identificados."
+  }
+}
