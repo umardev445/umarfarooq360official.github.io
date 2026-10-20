@@ -7,12 +7,12 @@
 
   <url>
     <loc>https://aspirecompass.org/about/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/contact/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -32,7 +32,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/china/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -42,7 +42,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/germany/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -52,7 +52,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/italy/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -82,7 +82,7 @@
 
   <url>
     <loc>https://aspirecompass.org/editorial-policy/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -397,7 +397,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/china-universities-without-application-fees/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -412,7 +417,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/csc-scholarship-application/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -427,7 +432,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/germany-university-application-deadlines/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -447,7 +452,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-dsu-scholarships/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -462,7 +467,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-university-application-deadlines/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -482,12 +487,22 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/no-application-fee-scholarships/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/peking-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/politecnico-di-milano-masters-admissions/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/politecnico-di-torino-admissions-scholarships/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -532,12 +547,27 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/study-in-germany-admission-requirements/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/study-in-italy-admission-english-requirements/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/technical-university-of-munich-admissions-scholarships/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/tsinghua-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/uni-assist-application/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -553,6 +583,21 @@
   <url>
     <loc>https://aspirecompass.org/guides/university-of-padua-admissions-scholarships/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/university-of-pavia-admissions-scholarships/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/university-of-turin-admissions-scholarships/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/vpd-germany/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -597,12 +642,12 @@
 
   <url>
     <loc>https://aspirecompass.org/resources/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -631,8 +676,18 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/scholarships/edisu-piemonte/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/scholarships/erasmus-mundus/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/ergo-scholarship/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -642,12 +697,12 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/germany/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/italy/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -658,6 +713,11 @@
   <url>
     <loc>https://aspirecompass.org/scholarships/lester-b-pearson/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/maeci-scholarship/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
@@ -678,6 +738,11 @@
   <url>
     <loc>https://aspirecompass.org/scholarships/stipendium-hungaricum/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/team/hafiz-umar-farooq/</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
