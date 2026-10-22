@@ -120,7 +120,7 @@
   }
   form.addEventListener('input',scheduleCalculation);
   form.addEventListener('change',()=>{clearTimeout(inputDelay);mark();calculate();});
-  form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(inputDelay);mark();calculate();announce(result.innerText);});
+  form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(inputDelay);mark();calculate();announce(result.innerText);if(lastValid&&typeof window.gtag==='function'&&!window['ga-disable-G-54C36SGS3Z'])window.gtag('event','tool_complete',{tool_id:tool,language:'es'});});
   form.addEventListener('click',event=>{
     const button = event.target.closest('button');
     if(!button) return;
