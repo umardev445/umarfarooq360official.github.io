@@ -1,0 +1,213 @@
+{
+  "italy-lazio": {
+    "source": "https://unsplash.com/photos/bridge-and-buildings-reflected-in-the-tiber-river-rome-KUW5YXUaqXQ",
+    "author": "Ludovic Delot",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "River Tiber and historic buildings in Rome",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "italy-toscana": {
+    "source": "https://unsplash.com/photos/florence-skyline-reflecting-in-the-river-q_Q4aYL7fIY",
+    "author": "Unsplash contributor",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Florence skyline beside the Arno River",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "italy-sapienza": {
+    "source": "https://unsplash.com/photos/cityscape-of-rome-with-beautiful-architecture-zvN8ZiBa6Iw",
+    "author": "Unsplash contributor",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Historic rooftops and domes in Rome",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "italy-milan": {
+    "source": "https://unsplash.com/photos/a-crowd-of-people-walking-down-a-street-next-to-tall-buildings-UwUU77Lk-_c",
+    "author": "Joshi Milestoner",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "kind": "photograph",
+    "alt": "People walking along a street between historic buildings in Milan",
+    "caption": "Milan city photograph; not a photograph of the University of Milan."
+  },
+  "italy-pisa": {
+    "source": "https://unsplash.com/photos/leaning-tower-of-pisa-italy-1PHDS-PFtcM",
+    "author": "davide ragusa",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "The Leaning Tower of Pisa",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "italy-florence": {
+    "source": "https://unsplash.com/photos/people-admire-the-florence-skyline-at-sunset-oNEWRH2NDNY",
+    "author": "Unsplash contributor",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Florence skyline at sunset",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "italy-siena": {
+    "source": "https://unsplash.com/photos/piazza-del-campo-in-siena-italy-with-historic-buildings-8cX7DwP_sDs",
+    "author": "mana5280",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Piazza del Campo and historic buildings in Siena",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "germany-studienkolleg": {
+    "source": "https://unsplash.com/photos/a-long-row-of-shelves-filled-with-lots-of-books-8EdTsZqyyw0",
+    "author": "Marcus Lenk",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Book-lined reading space in a Berlin library",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "germany-testas": {
+    "source": "https://unsplash.com/photos/a-large-library-filled-with-lots-of-books-gKZXQk0ajKE",
+    "author": "Unsplash contributor",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Open reading floors in Stuttgart City Library",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "germany-budget": {
+    "source": "https://unsplash.com/photos/city-street-with-tall-buildings-and-tram-tracks-Z0myGBo1PA8",
+    "author": "Nikita Pishchugin",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Tram tracks and buildings on a Berlin street",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "china-csca": {
+    "source": "https://unsplash.com/photos/student-writing-in-an-open-binder-on-a-wooden-table-nevNNCX6ELE",
+    "author": "Nathan Dumlao",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Student writing in an open binder during a study session",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "china-visa": {
+    "source": "https://unsplash.com/photos/a-city-skyline-with-a-lot-of-tall-buildings-lit-up-at-night-CUdPbnFj5s4",
+    "author": "Howei Wang",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Shanghai skyline illuminated at night",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "china-ustc": {
+    "source": "https://unsplash.com/photos/a-cityscape-displays-impressive-skyscrapers-in-china-OI5texz8usg",
+    "author": "Sergio Kian",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Modern buildings and green spaces in Shanghai",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "china-anso": {
+    "source": "https://unsplash.com/photos/a-city-skyline-at-night-with-a-reflection-in-the-water-QfW4ZhLOqW8",
+    "author": "Jon Geng",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Shanghai buildings reflected in the river at night",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "china-cost": {
+    "source": "https://unsplash.com/photos/modern-domed-buildings-with-intricate-facades-and-trees-dAbuxgHnyoM",
+    "author": "Jean Carlo Emer",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "City architecture and trees in Nanjing",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "china-njust": {
+    "source": "https://unsplash.com/photos/trees-blossom-with-many-pretty-pink-flowers--BysR0H2h4c",
+    "author": "Unsplash contributor",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Pink blossoms on trees in Nanjing",
+    "kind": "photograph",
+    "caption": "Destination or study photograph; not a photograph of the named university or scholarship."
+  },
+  "es-canada": {
+    "source": "https://unsplash.com/photos/torontos-skyline-is-dominated-by-the-iconic-cn-tower-GBw6Grb6qiY",
+    "author": "Filipe Freitas",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Horizonte de Toronto con la torre CN",
+    "kind": "photograph",
+    "caption": "Fotografía de destino; no representa una universidad ni una beca concreta."
+  },
+  "es-germany": {
+    "source": "https://unsplash.com/photos/a-city-street-with-people-walking-down-it-Pb1Zj-TkKA4",
+    "author": "Alireza Banijani",
+    "licence": "Unsplash License",
+    "licenceUrl": "https://unsplash.com/license",
+    "alt": "Calle de Berlín con peatones y edificios",
+    "kind": "photograph",
+    "caption": "Fotografía de destino; no representa una universidad ni una beca concreta."
+  },
+  "es-std-tool": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Ilustración de un histograma y su centro para explorar la dispersión",
+    "caption": "Ilustración conceptual; no representa datos reales."
+  },
+  "es-std-guide": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Ilustración de valores con distinta dispersión alrededor de un centro",
+    "caption": "Ilustración conceptual; no representa datos reales."
+  },
+  "es-excel": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Ilustración de una hoja de cálculo con un rango de datos destacado",
+    "caption": "Ilustración conceptual; no representa datos reales."
+  },
+  "es-mad": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Ilustración de una tabla para organizar distancias respecto a la media",
+    "caption": "Ilustración conceptual; no representa datos reales."
+  },
+  "tool-final": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Original illustration of assessment contributions and a target marker",
+    "caption": "Original conceptual illustration; not an official form or measured dataset."
+  },
+  "tool-ects": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Original illustration of study workload blocks and a clock",
+    "caption": "Original conceptual illustration; not an official form or measured dataset."
+  },
+  "china-form": {
+    "kind": "original code illustration",
+    "author": "AspireCompass",
+    "licence": "Included with this project",
+    "alt": "Original illustration of a document checklist with completed fields",
+    "caption": "Original conceptual illustration; not an official form or measured dataset."
+  }
+}
