@@ -61,6 +61,7 @@
   }
   function calculate() {
     sync();
+    announce('');
     lastValid = false;
     try {
       if (tool === 'grades') {
@@ -98,9 +99,11 @@
         show('Nota según el modelo elegido',fmt(r.value)+' / '+fmt(r.max),explanation,[metric('Preguntas en blanco',r.blank),metric('Porcentaje de aciertos sin penalizar',fmt(r.accuracy)+' %'),metric('Aciertos netos tras penalizar',fmt(r.effective)),metric('Penalización por error',fmt(r.penalty))],r.raw < 0);
       }
       lastValid = true;
+      if (edited) announce(result.innerText);
     } catch(error) {
       result.className = 'result error';
       result.innerHTML = '<div class="result-label">Revisa los datos</div><p class="result-explain">'+esc(error.message)+'</p>';
+      if (edited) announce(error.message);
     }
   }
   function populate(example) {

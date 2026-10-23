@@ -42,7 +42,7 @@
 .editorial-theme .hero-visual--editorial .hero-deadline-card small { color: var(--slate); }
 .editorial-theme .hero-visual--editorial .hero-deadline-card a { color: var(--teal); }
 .editorial-theme .hero-visual--editorial .hero-deadline-card__icon { background: #e8f1eb; color: var(--teal); }
-.editorial-theme .editorial-search { position: relative; z-index: 2; width: calc(100% + 140px); display: grid; grid-template-columns: minmax(0,1fr) minmax(0,.9fr) auto; gap: 10px; margin-top: 28px; padding: 14px; border: 1px solid var(--line); border-radius: 8px; background: #fff; box-shadow: 0 10px 28px #071a2c08; }
+.editorial-theme .editorial-search { position: relative; z-index: 2; width: 100%; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,.9fr) auto; gap: 10px; margin-top: 28px; padding: 14px; border: 1px solid var(--line); border-radius: 8px; background: #fff; box-shadow: 0 10px 28px #071a2c08; }
 .editorial-theme .editorial-search label { display: flex; gap: 9px; align-items: center; min-width: 0; padding: 9px 10px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
 .editorial-theme .editorial-search label > svg { width: 20px; height: 20px; flex: none; color: var(--teal); }
 .editorial-theme .editorial-search label > span { flex: 1; min-width: 0; }
@@ -211,7 +211,7 @@
   .editorial-theme .editorial-page--tool .mobile-contents { display: block; }
 }
 @media(max-width:1100px) {
-  .editorial-theme .editorial-search { width: calc(100% + 100px); grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+  .editorial-theme .editorial-search { width: 100%; grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
   .editorial-theme .editorial-search button { grid-column: 1/-1; min-height: 48px; }
   .editorial-theme :is(.home-page .premium-hero h1,.home-hero h1) { font-size: 3rem; }
 }
@@ -301,3 +301,14 @@
   .editorial-theme .editorial-page .content-layout,.editorial-theme.locale-page .layout { display: block; }
   .editorial-theme .tool-panel--accent { background: #fff; color: #000; }
 }
+
+/* Accessibility repair: tool heroes use a light surface in the editorial theme. */
+.editorial-theme.locale-page .hero--tool { color: var(--ink); }
+.editorial-theme.locale-page .hero--tool h1 { color: var(--ink); }
+.editorial-theme.locale-page .hero--tool :is(.lead,.byline) { color: var(--slate); }
+.editorial-theme.locale-page .hero--tool :is(.eyebrow,.byline a) { color: var(--teal); }
+.editorial-theme .editorial-search > * { min-width: 0; }
+/* Small footer labels must meet normal-text contrast on the navy surface. */
+.editorial-theme .site-footer .footer-group h2 { color: #b7c7d2; }
+/* The measured mobile LCP is this paragraph: never delay its first paint with opacity. */
+.editorial-theme .premium-hero .hero-copy > p { animation: none; }
