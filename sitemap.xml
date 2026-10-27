@@ -62,12 +62,12 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/united-kingdom/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/countries/united-states/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
@@ -456,6 +456,41 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/104-ucas-points-in-grades/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/112-ucas-points-in-grades/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/120-ucas-points-in-grades/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/128-ucas-points-in-grades/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/96-ucas-points-in-grades/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/ap-vs-clep/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/btec-ucas-points/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/china-foreigner-physical-examination-form/</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
@@ -481,6 +516,11 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/conditional-vs-unconditional-offer/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/cost-of-living-in-germany-for-students/</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
@@ -503,6 +543,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/csca-exam/</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/epq-ucas-points/</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
@@ -671,6 +716,11 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/t-level-ucas-points/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/technical-university-of-munich-admissions-scholarships/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -743,6 +793,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/vpd-germany/</loc>
     <lastmod>2026-10-25</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/weighted-vs-unweighted-gpa/</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
@@ -941,12 +996,12 @@
 
   <url>
     <loc>https://aspirecompass.org/tools/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/tools/ects-workload-calculator/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
@@ -960,8 +1015,13 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/tools/gpa-calculator-with-retakes/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/tools/gpa-cgpa-calculator/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
 
   <url>
@@ -972,5 +1032,20 @@
   <url>
     <loc>https://aspirecompass.org/tools/italy-study-cost-calculator/</loc>
     <lastmod>2026-10-21</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/tools/quarter-to-semester-credits-calculator/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/tools/ucas-points-calculator/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/tools/weighted-gpa-calculator/</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
 </urlset>
