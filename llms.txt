@@ -237,3 +237,18 @@ These guides distinguish checked published cycles from unconfirmed future intake
 - [GPA calculator with retakes: compare repeat policies](https://aspirecompass.org/tools/gpa-calculator-with-retakes/): Estimate cumulative GPA after course retakes. Compare grade replacement and both-attempt policies, with credits, quality points and transcript checks.
 - [Quarter credits to semester credits calculator](https://aspirecompass.org/tools/quarter-to-semester-credits-calculator/): Convert quarter and semester credits in either direction. Add course rows, keep fractional precision and compare estimates with school-awarded credit values.
 - [AP vs CLEP: choose a college-credit route that counts](https://aspirecompass.org/guides/ap-vs-clep/): Compare AP and CLEP preparation, assessment and credit routes. Check your target college's policy before choosing an exam or assuming credits save money.
+
+
+## Italy and Pakistan decision guides, 28 October 2026
+- [Italy Intakes 2027: September, February & Eligibility](https://aspirecompass.org/guides/italy-intakes-2027/): Compare Italy's 2027 intakes, application rounds and non-EU eligibility. Find verified university examples and separate admission from visa deadlines.
+- [Italy University Application Fees: Costs & Refunds](https://aspirecompass.org/guides/italy-university-application-fees/): Compare Italian university application fees, payment units, refunds and test charges. Check official sources before budgeting or paying.
+- [DSU Italy Deadlines by Region: Status & Next Steps](https://aspirecompass.org/guides/dsu-italy-deadlines-by-region/): Check regional DSU application status, separate document and housing dates, and prepare for the next call using dated official sources.
+- [Scholarships in Pakistan: HEC & University Funding](https://aspirecompass.org/guides/scholarships-in-pakistan/): Compare domestic scholarships and university aid in Pakistan. Check eligibility, institution restrictions, application routes and current status.
+- [Italy Student Living Costs by City: Compare Budgets](https://aspirecompass.org/guides/cost-of-living-in-italian-cities-for-students/): Compare student budgets in Milan, Rome, Bologna, Turin and Padua. Separate rent, bills, transport and upfront costs using dated sources.
+- [Undergraduate Scholarships for Pakistani Students](https://aspirecompass.org/guides/undergraduate-scholarships-for-pakistani-students/): Compare undergraduate scholarship routes for Pakistani applicants, with nomination stages, funding coverage, tests and verified application status.
+- [Master's Scholarships for Pakistani Students](https://aspirecompass.org/guides/masters-scholarships-for-pakistani-students/): Compare master's funding for Pakistani applicants. Separate HEC, direct and joint-programme routes, tests, deadlines and costs left to fund.
+- [MBA Scholarships for Pakistani Students: Funding](https://aspirecompass.org/guides/mba-scholarships-for-pakistani-students/): Compare MBA scholarships, fee waivers and loans for Pakistani applicants. Check work experience, application stages and the funding gap.
+
+## Nuevas herramientas y verificación en español
+- [Calculadora de créditos ECTS a horas](https://aspirecompass.org/es/herramientas/calculadora-creditos-ects-horas/): Carga total y semanal con factor y calendario editables.
+- [Comprobar un máster en el RUCT](https://aspirecompass.org/es/paises/espana/ruct-comprobar-master-oficial/): Registro, estados y comprobación de datos.

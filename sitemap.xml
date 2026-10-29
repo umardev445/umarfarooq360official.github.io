@@ -52,7 +52,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/italy/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -107,7 +107,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -187,7 +187,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/creditos-ects/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -232,7 +232,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/escalas-de-calificaciones/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -277,7 +277,12 @@
 
   <url>
     <loc>https://aspirecompass.org/es/herramientas/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/herramientas/calculadora-creditos-ects-horas/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -322,7 +327,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/herramientas/planificador-estudio/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -332,7 +337,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -372,17 +377,17 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/homologar-titulo-universitario/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/master-oficial-titulo-propio/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/masters/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -393,6 +398,11 @@
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/requisitos/</loc>
     <lastmod>2026-10-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/paises/espana/ruct-comprobar-master-oficial/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -452,7 +462,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -512,7 +522,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/cimea-vs-declaration-of-value-italy/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -526,8 +536,13 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/cost-of-living-in-italian-cities-for-students/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/cost-of-living-in-italy-for-students/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -543,6 +558,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/csca-exam/</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/dsu-italy-deadlines-by-region/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -592,27 +612,37 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/isee-parificato-international-students/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-dsu-scholarships/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/italy-intakes-2027/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-student-visa-pakistan/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-universities-tuition-fees/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-university-application-deadlines/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/italy-university-application-fees/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -621,8 +651,18 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/masters-scholarships-for-pakistani-students/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/mba-scholarships-for-pakistani-students/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/mext-application-routes/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -667,7 +707,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/scholarship-application/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -682,7 +722,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/scholarships-in-pakistan/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -736,6 +781,11 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/undergraduate-scholarships-for-pakistani-students/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/uni-assist-application/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -747,7 +797,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/university-of-bologna-admissions-scholarships/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -762,12 +812,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/university-of-padua-admissions-scholarships/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/university-of-pavia-admissions-scholarships/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -847,7 +897,7 @@
 
   <url>
     <loc>https://aspirecompass.org/resources/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -857,7 +907,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/bachelors/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -892,7 +942,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/edisu-piemonte/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -952,7 +1002,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/masters/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
@@ -1031,7 +1081,7 @@
 
   <url>
     <loc>https://aspirecompass.org/tools/italy-study-cost-calculator/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 
   <url>
