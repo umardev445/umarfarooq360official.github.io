@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aspirecompass.org/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -17,7 +17,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -58,6 +58,11 @@
   <url>
     <loc>https://aspirecompass.org/countries/japan/</loc>
     <lastmod>2026-10-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/countries/turkey/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -462,7 +467,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -493,6 +498,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/ap-vs-clep/</loc>
     <lastmod>2026-10-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/bilkent-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -543,6 +553,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/cost-of-living-in-italy-for-students/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/cost-of-living-in-turkey-for-students/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -616,6 +631,11 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/istanbul-university-admissions-fees/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/italy-dsu-scholarships/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
@@ -651,13 +671,23 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/koc-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/masters-scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/mba-scholarships-for-pakistani-students/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/metu-international-admissions/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -701,13 +731,18 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/sabanci-university-admissions-scholarships/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/sapienza-university-admissions-scholarships/</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/scholarship-application/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -722,7 +757,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -743,6 +778,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/statement-of-purpose/</loc>
     <lastmod>2026-10-21</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/student-accommodation-turkey/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -776,13 +816,38 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/tr-yos-exam/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/tsinghua-university-admissions-scholarships/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/turkey-student-residence-permit/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/turkey-student-visa-requirements/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/turkey-university-admission-requirements/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/turkey-university-tuition-fees/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/undergraduate-scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -793,6 +858,11 @@
   <url>
     <loc>https://aspirecompass.org/guides/universitaly-pre-enrolment/</loc>
     <lastmod>2026-10-21</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/guides/universities-in-turkey-for-international-students/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -897,7 +967,7 @@
 
   <url>
     <loc>https://aspirecompass.org/resources/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -907,7 +977,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/bachelors/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -968,6 +1038,11 @@
   <url>
     <loc>https://aspirecompass.org/scholarships/germany/</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/isdb-ytb/</loc>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
@@ -1032,7 +1107,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/turkiye-burslari/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
 
   <url>
