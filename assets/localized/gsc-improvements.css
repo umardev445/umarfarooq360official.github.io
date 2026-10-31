@@ -1,0 +1,19 @@
+.gsc-release .hero h1{font-size:clamp(2rem,4.3vw,3.6rem);max-width:25ch;line-height:1.12}
+.gsc-release .tool-card{border-top:4px solid #0e7490;box-shadow:0 14px 40px #0c29420b}
+.gsc-release .gsc-decision{padding:clamp(18px,3vw,28px);border:1px solid #cddfe8;border-radius:18px;background:linear-gradient(125deg,#f1f8fb,#fff);margin-block:24px}
+.gsc-release .gsc-decision h2{margin-top:0}
+.gsc-release .gsc-action{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;background:#0e526e;color:#fff!important;border-radius:9px;font-weight:700;text-decoration:none;margin:4px 8px 4px 0}
+.gsc-release .gsc-action:hover{background:#093e55}
+.gsc-release .gsc-shortcuts{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:8px 0 20px;grid-column:1/-1}
+.gsc-release .gsc-shortcuts span{font-size:.9rem;color:#456077;width:100%}
+.gsc-release .gsc-shortcuts button{min-height:42px;padding:8px 14px;border:1px solid #b8cedc;border-radius:24px;background:#fff;color:#12344e;font:inherit;font-size:.9rem;cursor:pointer}
+.gsc-release .gsc-shortcuts button[aria-pressed=true],.gsc-release .gsc-shortcuts button:hover{background:#e1f3f8;border-color:#0e7490;color:#06465f}
+.gsc-release :is(button,a,select,textarea):focus-visible{outline:3px solid #d29c30;outline-offset:3px}
+.gsc-release .gsc-mode-bar{margin-bottom:18px}
+.gsc-release textarea{width:100%;max-width:100%;padding:12px;border:1px solid #a6bfce;border-radius:10px;font:inherit;line-height:1.5;background:#fff;color:#102c43;resize:vertical;box-sizing:border-box}
+.gsc-release #mean-deviation-form .field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.gsc-release #dm-breakdown{max-width:100%;min-width:0;margin-top:20px}
+.gsc-release .gsc-route{display:grid;gap:12px;margin:16px 0}
+.gsc-release .gsc-route span{padding:12px 16px;border-left:3px solid #62a6be;background:#fff;border-radius:0 8px 8px 0}
+.gsc-release .table-wrap{max-width:100%;overflow-x:auto}
+@media(max-width:640px){.gsc-release #mean-deviation-form .field-grid{grid-template-columns:1fr}.gsc-release .gsc-shortcuts{gap:6px}.gsc-release .gsc-shortcuts button{padding:8px 11px}.gsc-release .gsc-decision{padding:16px}.gsc-release .actions{gap:8px}.gsc-release .actions button{flex:1 1 140px}}

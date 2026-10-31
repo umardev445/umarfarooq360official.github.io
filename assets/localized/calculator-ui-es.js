@@ -54,6 +54,9 @@
       form.querySelectorAll('[data-weight-field]').forEach(field => { field.hidden = mode !== 'weighted'; });
       el('add-row').hidden = mode === 'target';
       el('weight-help').hidden = mode !== 'weighted';
+    } else if (tool === 'attendance') {
+      const label = el('attendance-count-label');
+      if (label) label.textContent = el('attendance-mode')?.value === 'missed' ? 'Faltas registradas hasta hoy' : 'Clases asistidas';
     } else if (tool === 'exam') {
       el('choices-field').hidden = value('penalty-mode') !== 'choices';
       el('custom-field').hidden = value('penalty-mode') !== 'custom';
@@ -89,7 +92,11 @@
         if(priorCredits > 0) metrics.push(metric('GPA acumulado estimado',fmt(r.cumulative)),metric('Créditos totales',fmt(r.credits+priorCredits)));
         show('GPA del período con tus puntos de nota',fmt(r.value)+' / '+fmt(max),fmt(r.quality)+' puntos de calidad ÷ '+fmt(r.credits)+' créditos = '+fmt(r.value)+'. No convierte automáticamente notas extranjeras ni decide qué cursos admite tu institución.',metrics);
       } else if (tool === 'attendance') {
-        const r = M.attendance(num('attended','Clases asistidas'),num('held','Clases realizadas'),num('remaining','Clases pendientes'),num('required','Asistencia mínima'));
+        const missedMode = el('attendance-mode')?.value === 'missed';
+        const held = num('held','Clases realizadas');
+        const count = num('attended',missedMode?'Faltas registradas':'Clases asistidas');
+        if (count < 0 || count > held) throw new Error('El número de asistencias o faltas debe estar entre cero y las clases realizadas.');
+        const r = M.attendance(missedMode ? held-count : count,held,num('remaining','Clases pendientes'),num('required','Asistencia mínima'));
         const explanation = r.possible ? 'Para terminar con al menos '+fmt(r.percent)+' %, debes asistir a '+r.mustAttend+' de las '+r.remaining+' clases pendientes. El margen de ausencias es para el total del período, no permiso para faltar ahora.' : 'Incluso asistiendo a todas las clases pendientes llegarías a '+fmt(r.best)+' %. Revisa tu situación y las reglas de justificación con tu institución.';
         show('Asistencia actual',fmt(r.value)+' %',explanation,[metric('Ausencias posibles hasta el final',r.canMiss===null?'Objetivo no alcanzable':r.canMiss),metric('Asistencia final máxima',fmt(r.best)+' %'),metric('Clases seguidas para llegar al mínimo',r.consecutive===null?'No alcanzable con las pendientes':r.consecutive),metric('Mínimo elegido por ti',fmt(r.percent)+' %')],!r.possible);
       } else if (tool === 'exam') {
@@ -99,7 +106,7 @@
         show('Nota según el modelo elegido',fmt(r.value)+' / '+fmt(r.max),explanation,[metric('Preguntas en blanco',r.blank),metric('Porcentaje de aciertos sin penalizar',fmt(r.accuracy)+' %'),metric('Aciertos netos tras penalizar',fmt(r.effective)),metric('Penalización por error',fmt(r.penalty))],r.raw < 0);
       }
       lastValid = true;
-      if (edited) announce(result.innerText);
+      if (edited) announce('Cálculo actualizado. Revisa el resultado y el desglose.');
     } catch(error) {
       result.className = 'result error';
       result.innerHTML = '<div class="result-label">Revisa los datos</div><p class="result-explain">'+esc(error.message)+'</p>';
@@ -122,8 +129,13 @@
     calculate();
   }
   form.addEventListener('input',scheduleCalculation);
-  form.addEventListener('change',()=>{clearTimeout(inputDelay);mark();calculate();});
-  form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(inputDelay);mark();calculate();announce(result.innerText);if(lastValid&&typeof window.gtag==='function'&&!window['ga-disable-G-54C36SGS3Z'])window.gtag('event','tool_complete',{tool_id:tool,language:'es'});});
+  form.addEventListener('change',event=>{
+    if(tool==='attendance' && event.target.id==='attendance-mode') {
+      try {el('attended').value=String(num('held','Clases realizadas')-num('attended','Registro de asistencia'));} catch { /* Keep incomplete input visible for validation. */ }
+    }
+    clearTimeout(inputDelay);mark();calculate();
+  });
+  form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(inputDelay);mark();calculate();if(lastValid)announce('Cálculo actualizado. Revisa el resultado y el desglose.');if(lastValid&&typeof window.gtag==='function'&&!window['ga-disable-G-54C36SGS3Z'])window.gtag('event','tool_complete',{tool_id:tool,language:'es'});});
   form.addEventListener('click',event=>{
     const button = event.target.closest('button');
     if(!button) return;

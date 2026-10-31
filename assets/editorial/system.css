@@ -343,3 +343,14 @@
 @media(max-width:860px){.opportunity-page .inner-hero__grid{grid-template-columns:1fr}.opportunity-page .inner-hero .page-visual{max-width:640px}.opportunity-reading__grid{grid-template-columns:1fr}.opportunity-reading__card{display:grid;grid-template-columns:minmax(120px,.65fr) minmax(0,1fr)}.opportunity-reading__card img{height:100%;aspect-ratio:auto}.opportunity-reading__card>div{padding:20px}}
 @media(max-width:480px){.opportunity-page .inner-hero h1{font-size:2.05rem}.opportunity-reading__card{display:flex}.opportunity-reading__card img{height:auto;aspect-ratio:1.9}.opportunity-reading__card>div{padding:22px}.locale-page .opportunity-guide .actions a{white-space:normal;max-width:100%}}
 @media(prefers-reduced-motion:reduce){.opportunity-reading__card{transition:none}.opportunity-reading__card:hover{transform:none}}
+
+/* Scoped study-decision layout for the twelve-page GSC revision. */
+.gsc-release .quick-answer{border-left:4px solid #277b75;background:linear-gradient(120deg,#f0f8f6,#fff);box-shadow:0 8px 28px #123e3208}
+.gsc-release .article-section:has(.guide-table){scroll-margin-top:110px}
+.gsc-release .guide-table-wrap{border:1px solid #d3e4df;border-radius:16px;max-width:100%;overflow-x:auto}
+.gsc-release .guide-table th[scope=col]{background:#eaf4f0;color:#173f36}
+.gsc-release .guide-table tbody th{min-width:170px}
+.gsc-release .article-section:has(.process-steps){padding:24px;border:1px solid #d8e7e1;border-radius:18px;background:#f8fbf9}
+.gsc-release .budget-breakdown[hidden],.gsc-release .budget-comparison[hidden]{display:none!important}
+.gsc-release .budget-field-group label span{line-height:1.4}
+@media(max-width:640px){.gsc-release .inner-hero h1{font-size:clamp(2rem,9vw,2.65rem)}.gsc-release .quick-answer{padding:20px}.gsc-release .article-section:has(.process-steps){padding:18px}}
