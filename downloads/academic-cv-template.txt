@@ -1,0 +1,32 @@
+ACADEMIC / SCHOLARSHIP CV - EDITABLE PLANNING TEMPLATE
+AspireCompass | Original teaching template, 1 November 2026
+Read: https://aspirecompass.org/guides/scholarship-cv/
+Replace prompts; delete irrelevant sections. Follow the actual programme format.
+
+NAME | professional email | city/country | relevant portfolio link
+Avoid unnecessary identity numbers, private addresses or sensitive records.
+
+EDUCATION
+Degree and subject | awarding institution | dates
+Result with original scale, if requested | relevant modules | thesis/project
+
+RESEARCH / ACADEMIC PROJECTS
+Project title | role | dates
+Question or task:
+My own action and method:
+Result or output I can substantiate:
+What I learned / relevant next skill:
+
+EXPERIENCE / SERVICE
+Role | organisation | dates
+Action + specific contribution + supported outcome.
+
+SKILLS
+Method/tool/language + evidence of use. Avoid unsupported rating bars.
+
+OUTPUTS AND AWARDS (only if relevant)
+Use accurate titles, status, dates and links. Do not label drafts as publications.
+
+FINAL CHECK
+Programme name and requested format correct; dates consistent; links work;
+claims supported; private information removed; file readable after export.
