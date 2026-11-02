@@ -22,7 +22,7 @@
   }
   function mark() {
     edited = true;
-    if (!measured && typeof window.gtag === 'function') {
+    if (!measured && typeof window.gtag === 'function' && !window['ga-disable-G-54C36SGS3Z']) {
       window.gtag('event', 'tool_interaction', {tool, language: document.documentElement.lang||'es'});
       measured = true;
     }

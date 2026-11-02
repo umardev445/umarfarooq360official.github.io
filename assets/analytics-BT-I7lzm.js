@@ -1,0 +1,1 @@
+function e(e,t={}){if(typeof window>`u`||![`aspirecompass.org`,`www.aspirecompass.org`].includes(window.location.hostname))return;let n=window;if(!n.AspirePrivacy?.analyticsAllowed())return;let r=n.gtag;r?.(`event`,e,{page_path:window.location.pathname,...t})}export{e as t};
