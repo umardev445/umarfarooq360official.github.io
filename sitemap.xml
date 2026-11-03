@@ -27,17 +27,17 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/canada/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/countries/china/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/countries/europe/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -57,7 +57,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/japan/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -592,7 +592,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/find-phd-supervisor/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -692,7 +692,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/masters-scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -732,7 +732,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/peking-university-admissions-scholarships/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -747,7 +747,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/recommendation-letter/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -867,7 +867,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/undergraduate-scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -997,12 +997,12 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/bachelors/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -1051,18 +1051,28 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/scholarships/eth-zurich-esop/</loc>
+    <lastmod>2026-11-03</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/scholarships/fully-funded/</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/gates-cambridge/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/germany/</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/hong-kong-phd-fellowship/</loc>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -1077,7 +1087,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/kaust/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -1102,7 +1112,12 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/masters/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/oist-phd/</loc>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -1112,7 +1127,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/phd/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>
@@ -1133,6 +1148,16 @@
   <url>
     <loc>https://aspirecompass.org/scholarships/turkiye-burslari/</loc>
     <lastmod>2026-10-29</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/ubc-international-scholars/</loc>
+    <lastmod>2026-11-03</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/yenching-academy/</loc>
+    <lastmod>2026-11-03</lastmod>
   </url>
 
   <url>

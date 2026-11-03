@@ -27,6 +27,16 @@ Important notes:
 - [Guides](https://aspirecompass.org/guides/): Find practical guides for scholarship applications, documents, interviews, admissions, and study planning.
 - [Student Tools](https://aspirecompass.org/tools/): Use free calculators and planning tools without creating an account.
 
+## 2027 Scholarship Application Guides
+
+- [UBC International Scholars 2027](https://aspirecompass.org/scholarships/ubc-international-scholars/): Need-based undergraduate funding, school nomination and separate teacher-referee dependencies.
+- [OIST PhD 2027](https://aspirecompass.org/scholarships/oist-phd/): Doctoral admission, application fee, references and the online workshop route.
+- [Yenching Academy 2027](https://aspirecompass.org/scholarships/yenching-academy/): China Studies research application, partner pre-selection and conditional second-year funding.
+- [ETH Zurich ESOP 2027](https://aspirecompass.org/scholarships/eth-zurich-esop/): First-window master's application, independently developed pre-proposal and current funding amount.
+- [Hong Kong PhD Fellowship 2027/28](https://aspirecompass.org/scholarships/hong-kong-phd-fellowship/): Initial RGC reference number followed by separate university PhD applications.
+- [Gates Cambridge 2027](https://aspirecompass.org/scholarships/gates-cambridge/): Applicant round, course-specific funding deadline and reference completion.
+- [KAUST Fall 2027](https://aspirecompass.org/scholarships/kaust/): Graduate admission, current English requirements and fellowship conditions.
+
 ## Italy Study and Scholarship Hub
 
 - [Study in Italy](https://aspirecompass.org/countries/italy/): Main route for Italy admissions, scholarships, documents, costs, and visa planning.
