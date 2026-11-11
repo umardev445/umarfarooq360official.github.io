@@ -288,3 +288,31 @@ These guides distinguish checked published cycles from unconfirmed future intake
 - [Master’s in Germany with low CGPA: build a realistic shortlist](https://aspirecompass.org/guides/masters-in-germany-low-cgpa/): Check programme-specific German master’s grade requirements, a sourced Passau example and an editable shortlist before paying application fees.
 - [EPFL Life Sciences Summer Research Program 2027](https://aspirecompass.org/internships/epfl-life-sciences-summer-research/): Check EPFL Life Sciences SRP 2027 dates, eligibility, stipend and the one-sitting application workflow, with a practical lab-choice worksheet.
 - [Pakistan academic-document attestation: HEC, IBCC and destination checks](https://aspirecompass.org/guides/pakistan-academic-document-attestation/): Choose the relevant Pakistani academic-document authority and build a destination-specific attestation checklist before ordering services or translations.
+
+## Bahasa Indonesia
+
+- [Beasiswa dan Panduan Studi untuk Pelajar Indonesia](https://aspirecompass.org/id/)
+- [Beasiswa Luar Negeri untuk Warga Indonesia](https://aspirecompass.org/id/beasiswa-luar-negeri/)
+- [Beasiswa S1 Luar Negeri untuk Lulusan SMA](https://aspirecompass.org/id/beasiswa-s1-luar-negeri/)
+- [Beasiswa S2 Luar Negeri: Pilihan dan Persiapan](https://aspirecompass.org/id/beasiswa-s2-luar-negeri/)
+- [Beasiswa S3 Luar Negeri: Riset dan Pendanaan](https://aspirecompass.org/id/beasiswa-s3-luar-negeri/)
+- [Beasiswa LPDP: Pilih Skema dan Siapkan Pendaftaran](https://aspirecompass.org/id/beasiswa-lpdp/)
+- [Syarat Beasiswa LPDP: Periksa Kategori dan Dokumen](https://aspirecompass.org/id/syarat-beasiswa-lpdp/)
+- [Contoh Esai LPDP: Bangun Rencana Kontribusi yang Jelas](https://aspirecompass.org/id/contoh-essay-lpdp/)
+- [Beasiswa Unggulan: Jalur, Syarat dan Dokumen](https://aspirecompass.org/id/beasiswa-unggulan/)
+- [KIP Kuliah: Bantuan Pendidikan, Jalur dan Tahapannya](https://aspirecompass.org/id/kip-kuliah/)
+- [Syarat KIP Kuliah dan Dokumen Pendukung](https://aspirecompass.org/id/syarat-kip-kuliah/)
+- [Cara Daftar KIP Kuliah dan Memperbaiki Data](https://aspirecompass.org/id/cara-daftar-kip-kuliah/)
+- [Beasiswa Garuda Sarjana: Syarat, Jalur dan Persiapan](https://aspirecompass.org/id/beasiswa-garuda/)
+- [Beasiswa Bank Indonesia dan GenBI: Syarat dan Proses](https://aspirecompass.org/id/beasiswa-bank-indonesia/)
+- [Beasiswa MEXT Jepang untuk Warga Indonesia](https://aspirecompass.org/id/beasiswa-mext/)
+- [Australia Awards Indonesia: Syarat dan Cara Daftar](https://aspirecompass.org/id/australia-awards-indonesia/)
+- [Türkiye Bursları: Syarat, Dokumen dan Pilihan Program](https://aspirecompass.org/id/turkiye-burslari/)
+- [Beasiswa DAAD Jerman: Pilih Skema, Course dan Dokumen](https://aspirecompass.org/id/beasiswa-daad/)
+- [Motivation Letter Beasiswa: Struktur, Contoh dan Revisi](https://aspirecompass.org/id/motivation-letter-beasiswa/)
+- [LoA Adalah: Conditional, Unconditional dan Cara Membacanya](https://aspirecompass.org/id/loa-adalah/)
+- [Surat Rekomendasi Beasiswa: Format, Pemberi dan Cara Meminta](https://aspirecompass.org/id/surat-rekomendasi-beasiswa/)
+- [Study Plan Beasiswa: Rencana Studi yang Realistis dan Contohnya](https://aspirecompass.org/id/study-plan-beasiswa/)
+- [Beasiswa Tanpa IELTS atau TOEFL: Periksa Alternatif Bukti Bahasa](https://aspirecompass.org/id/beasiswa-tanpa-ielts-toefl/)
+- [CV Beasiswa: Struktur, Contoh Mahasiswa dan Bukti Pengalaman](https://aspirecompass.org/id/cv-beasiswa/)
+- [Wawancara Beasiswa: Latihan Pertanyaan dan Jawaban Berbasis Bukti](https://aspirecompass.org/id/wawancara-beasiswa/)
