@@ -4,6 +4,11 @@
   const key = 'aspirecompass_analytics_choice_v1';
   const measurementId = 'G-54C36SGS3Z';
   const disabledKey = 'ga-disable-' + measurementId;
+  // Google applies these defaults using the visitor's region, not browser
+  // language or time zone. Never persist a default as an explicit opt-in.
+  const consentRegions = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI',
+    'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL',
+    'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH'];
   let current = null, started = false, previousFocus = null;
   window[disabledKey] = true;
 
@@ -35,8 +40,9 @@
     started = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
-    window.gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
-    window.gtag('consent', 'update', { analytics_storage: 'granted' });
+    window.gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    window.gtag('consent', 'default', { analytics_storage: 'denied', region: consentRegions });
+    if (current === 'yes') window.gtag('consent', 'update', { analytics_storage: 'granted' });
     window.gtag('js', new Date());
     window.gtag('config', measurementId, { allow_google_signals: false, allow_ad_personalization_signals: false });
     const script = document.createElement('script');
@@ -45,23 +51,29 @@
     document.head.appendChild(script);
   }
   function apply(value) {
+    const previous = current;
     current = valid(value) ? value : null;
-    window[disabledKey] = current !== 'yes';
-    if (current === 'yes') {
-      if (started) window.gtag?.('consent', 'update', { analytics_storage: 'granted' });
+    // A cleared preference must not leave an earlier global opt-in active in
+    // an open tab. Stay disabled there until the next page loads its defaults.
+    const reset = started && valid(previous) && current === null;
+    window[disabledKey] = current === 'no' || reset;
+    if (!window[disabledKey]) {
+      if (started && current === 'yes') window.gtag?.('consent', 'update', { analytics_storage: 'granted' });
       else startAnalytics();
     } else {
       if (started) window.gtag?.('consent', 'update', { analytics_storage: 'denied' });
       clearAnalyticsCookies();
     }
   }
-  window.AspirePrivacy = { analyticsAllowed: () => current === 'yes', open: () => {} };
+  // This reports whether events may reach the consent-aware tag. Cookie
+  // permission is enforced separately by Google's regional consent defaults.
+  window.AspirePrivacy = { analyticsAllowed: () => !window[disabledKey], open: () => {} };
+  apply(readChoice());
   function initialise() {
     const panel = document.getElementById('analytics-choice');
     const settings = document.querySelectorAll('.privacy-settings');
-    apply(readChoice());
     if (!panel) return;
-    panel.hidden = valid(current);
+    panel.hidden = true;
     function open() {
       previousFocus = document.activeElement; panel.hidden = false;
       panel.querySelector('[data-consent]')?.focus();
@@ -83,7 +95,7 @@
     });
     window.addEventListener('storage', event => {
       if (event.key === key || event.key === null) {
-        apply(event.key === null ? null : event.newValue); panel.hidden = valid(current);
+        apply(event.key === null ? null : event.newValue); panel.hidden = true;
       }
     });
   }
