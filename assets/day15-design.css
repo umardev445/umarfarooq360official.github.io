@@ -1,0 +1,61 @@
+/* Day15: responsive editorial photography and readable planning workspaces. */
+.editorial-theme .home-page .premium-hero .home-hero__content{gap:clamp(28px,4vw,64px);align-items:center}
+.editorial-theme .home-page .hero-focus{border-radius:22px;box-shadow:0 18px 48px #061c322b}
+.editorial-theme .home-page .hero-focus>img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center}
+.editorial-theme .home-page .hero-focus figcaption{position:static;inset:auto;margin:0;padding:14px 18px;border-radius:0;box-shadow:none;font-size:.9rem;line-height:1.55}
+.editorial-theme .home-page .hero-deadline-card{border-radius:16px;line-height:1.55}
+.editorial-theme .home-page .hero-deadline-card small{font-size:.875rem}
+.editorial-theme .home-page .hero-deadline-card strong{font-size:1rem}
+.editorial-theme .home-page .language-route{grid-template-columns:minmax(0,1fr) 38%;gap:24px;align-items:center;overflow:hidden}
+.editorial-theme .home-page .language-route img{width:100%;height:auto;min-height:0;aspect-ratio:3/2;object-fit:cover;border-radius:12px}
+.editorial-theme .day15-guide-visual{max-width:100%;margin:24px 0 32px;border-radius:18px;box-shadow:0 12px 36px #1637480a}
+.editorial-theme .day15-guide-visual img{width:100%;height:auto;max-height:none;aspect-ratio:3/2;object-fit:cover}
+.editorial-theme .day15-guide-visual figcaption{font-size:.875rem;line-height:1.6}
+.editorial-theme .source-grid>a{min-width:0;padding:18px;align-items:start;border:1px solid #d4e2dc;border-radius:14px;background:#fff}
+.editorial-theme .source-grid>a strong{font-size:1rem;line-height:1.5}
+.editorial-theme .source-grid>a span{font-size:.9rem;line-height:1.7;overflow-wrap:anywhere}
+.editorial-theme .home-tools__grid{align-items:stretch}
+.editorial-theme .home-tools__card{min-width:0}
+.editorial-theme .content-main,.locale-page .layout>div,.id-site .id-article{min-width:0}
+.locale-page .editorial-locale-photo{border-radius:20px;overflow:hidden;margin:0}
+.locale-page .editorial-locale-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center}
+.locale-page .editorial-locale-photo figcaption{position:static;padding:14px 18px;font-size:.9rem;line-height:1.5;background:#f5f9f5;color:#173c36}
+.locale-page .page-visual img{display:block;height:auto;max-height:none;aspect-ratio:3/2;object-fit:cover}
+.locale-page .article>p,.locale-page .article>section>p{line-height:1.85}
+.locale-page .page-visual figcaption,.locale-page .source-list small{font-size:.875rem;line-height:1.65}
+.locale-page .table-wrap,.id-site .id-table-wrap{overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;max-width:100%}
+.id-site .id-home-visual>figure{border-radius:20px;overflow:hidden}
+.id-site .id-home-visual figure>img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center}
+.id-site .id-home-visual figcaption{font-size:.875rem;line-height:1.6}
+.id-site .id-home-decision{padding-block:40px;border-top:1px solid var(--id-line)}
+.id-site .id-home-decision .id-article{max-width:900px}
+.id-site .day15-id-photo{margin:28px 0;overflow:hidden;border:1px solid var(--id-line);border-radius:18px;background:#fff}
+.id-site .day15-id-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.id-site .day15-id-photo figcaption{padding:12px 16px;font-size:.875rem;line-height:1.65;color:#3e5650}
+@media(max-width:980px){
+ .editorial-theme .home-page .premium-hero .home-hero__content{grid-template-columns:minmax(0,1fr);padding-block:36px 40px}
+ .editorial-theme .home-page .hero-visual--editorial{display:block;max-width:700px;width:100%;margin:0}
+ .editorial-theme .home-page .hero-focus{width:100%}
+ .editorial-theme .home-page .hero-deadline-card{margin-top:14px;flex-direction:row}
+ .editorial-theme .home-page .language-route{grid-template-columns:minmax(0,1fr) 38%}
+}
+@media(max-width:600px){
+ .editorial-theme .home-page .premium-hero h1{font-size:clamp(2.3rem,10.5vw,3.4rem);line-height:1.12}
+ .editorial-theme .home-page .hero-copy>p{font-size:1rem;line-height:1.75}
+ .editorial-theme .home-page .hero-badge{font-size:.875rem;line-height:1.5;white-space:normal}
+ .editorial-theme .home-page .hero-focus{border-radius:16px}
+ .editorial-theme .home-page .hero-focus figcaption{padding:12px 14px}
+ .editorial-theme .home-page .language-route{grid-template-columns:minmax(0,1fr);padding:20px}
+ .editorial-theme .home-page .language-route img{aspect-ratio:3/2;max-height:none}
+ .editorial-theme .home-tools__grid{grid-template-columns:minmax(0,1fr)}
+ .editorial-theme .source-grid{grid-template-columns:minmax(0,1fr)}
+ .editorial-theme .content-main .article-body p{font-size:1rem;line-height:1.85}
+ .editorial-theme .table-scroll-hint{font-size:.875rem;line-height:1.55}
+ .locale-page .editorial-locale-photo{border-radius:16px}
+ .locale-page .article{padding:22px 18px}
+ .locale-page .mobile-toc summary,.id-site .id-mobile-toc summary{min-height:48px;padding-block:14px}
+ .locale-page input,.locale-page select,.id-site input,.id-site select{font-size:1rem}
+ .id-site .id-home-decision{padding-block:30px}
+}
+@media(prefers-reduced-motion:reduce){.day15-guide-visual,.day15-id-photo{animation:none!important;transition:none!important}}
+@media print{.day15-guide-visual,.day15-id-photo{display:none!important}}
