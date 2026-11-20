@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aspirecompass.org/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/about/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -22,7 +22,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/australia/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/hungary/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -57,7 +57,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/japan/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -72,7 +72,7 @@
 
   <url>
     <loc>https://aspirecompass.org/countries/united-states/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -97,7 +97,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -132,12 +132,17 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/becas-en-italia/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/guias/becas-erasmus-mundus/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/guias/buscar-bibliografia-pubmed/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -152,7 +157,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/carta-presentacion-practicas/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -172,12 +177,12 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/citar-pagina-web-apa/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/guias/como-calcular-gpa/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -242,7 +247,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/entrevista-beca/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -257,7 +262,12 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/intercambio-universitario/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/guias/learning-agreement-erasmus/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -272,7 +282,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/metodo-pomodoro-estudiar/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -297,7 +307,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/que-nota-necesito-examen-final/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -307,7 +317,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/guias/zotero-para-estudiantes/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -337,17 +347,17 @@
 
   <url>
     <loc>https://aspirecompass.org/es/herramientas/calculadora-gpa/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/herramientas/calculadora-media-mediana-moda/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/herramientas/calculadora-nota-admision/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -362,7 +372,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/herramientas/generador-citas-apa/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -377,12 +387,12 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/apostillar-documentos-academicos/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -392,7 +402,7 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/becas/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -407,17 +417,22 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/examenes-pce/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/homologar-bachillerato/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/homologar-titulo-universitario/</loc>
     <lastmod>2026-11-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/paises/espana/listas-espera-universidad/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -432,12 +447,22 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/practicas-curriculares-extracurriculares/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/paises/espana/preinscripcion-universitaria-cataluna/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/requisitos/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/es/paises/espana/revision-notas-pce/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -452,12 +477,12 @@
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/unedasiss/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/es/paises/espana/universidades/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -487,22 +512,22 @@
 
   <url>
     <loc>https://aspirecompass.org/exchange-programs/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/fellowships/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/graduate-programs/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -536,13 +561,18 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/guides/australia-research-training-program/</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/guides/bilkent-university-admissions-scholarships/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/btec-ucas-points/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -552,7 +582,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/china-student-visa-x1-x2/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -577,12 +607,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/cost-of-living-in-germany-for-students/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/cost-of-living-in-italian-cities-for-students/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -592,7 +622,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/cost-of-living-in-turkey-for-students/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -607,12 +637,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/csca-exam/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/dsu-italy-deadlines-by-region/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -622,7 +652,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/fellowship-vs-scholarship/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -642,7 +672,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/germany-student-visa-requirements/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -707,7 +737,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/italy-university-application-fees/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -722,12 +752,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/masters-in-germany-low-cgpa/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/masters-scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -767,12 +797,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/peking-university-admissions-scholarships/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/politecnico-di-milano-masters-admissions/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -792,7 +822,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/sapienza-university-admissions-scholarships/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -807,12 +837,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/scholarship-interview/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/scholarships-for-pakistani-students/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -837,12 +867,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/student-accommodation-turkey/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/studienkolleg-germany/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -862,7 +892,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/technical-university-of-munich-admissions-scholarships/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -892,12 +922,12 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/turkey-university-admission-requirements/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/turkey-university-tuition-fees/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -927,7 +957,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/university-of-florence-admissions-scholarships/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -952,7 +982,7 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/university-of-siena-admissions-scholarships/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -977,27 +1007,37 @@
 
   <url>
     <loc>https://aspirecompass.org/guides/xiamen-university-admissions-scholarships/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/guides/zhejiang-university-admissions-scholarships/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/id/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/id/apostille-dokumen-pendidikan/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/id/australia-awards-indonesia/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/id/beasiswa-adb-japan/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-bank-indonesia/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1007,7 +1047,7 @@
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-daad/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1022,7 +1062,7 @@
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-garuda/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1037,12 +1077,12 @@
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-luar-negeri/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-mext/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1057,12 +1097,12 @@
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-s2-luar-negeri/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/id/beasiswa-s3-luar-negeri/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1106,13 +1146,28 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/id/knight-hennessy-scholars/</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/id/loa-adalah/</loc>
     <lastmod>2026-11-15</lastmod>
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/id/malaysia-international-scholarship/</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/id/motivation-letter-beasiswa/</loc>
     <lastmod>2026-11-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/id/nl-scholarship/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1192,7 +1247,7 @@
 
   <url>
     <loc>https://aspirecompass.org/opportunities/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1207,17 +1262,22 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/bachelors/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/brunei-government-scholarship/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/cas-anso/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1227,7 +1287,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/chinese-government-scholarship/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1291,6 +1351,11 @@
   </url>
 
   <url>
+    <loc>https://aspirecompass.org/scholarships/global-korea-scholarship/</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
     <loc>https://aspirecompass.org/scholarships/hong-kong-phd-fellowship/</loc>
     <lastmod>2026-11-03</lastmod>
   </url>
@@ -1307,12 +1372,12 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/kaust/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/kfupm/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1332,12 +1397,22 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/maeci-scholarship/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/manaaki-new-zealand/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
     <loc>https://aspirecompass.org/scholarships/masters/</loc>
     <lastmod>2026-11-03</lastmod>
+  </url>
+
+  <url>
+    <loc>https://aspirecompass.org/scholarships/ntu-research-scholarship/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1352,7 +1427,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/phd/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1377,7 +1452,7 @@
 
   <url>
     <loc>https://aspirecompass.org/scholarships/ubc-international-scholars/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1396,7 +1471,7 @@
 
   <url>
     <loc>https://aspirecompass.org/tools/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
@@ -1446,7 +1521,7 @@
 
   <url>
     <loc>https://aspirecompass.org/tools/ucas-points-calculator/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
 
   <url>
