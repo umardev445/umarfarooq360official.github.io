@@ -82,7 +82,9 @@
       const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),10000);let response;
       try{response=await fetch('https://api.crossref.org/works/'+encodeURIComponent(doi.replace('https://doi.org/','')),{signal:controller.signal,headers:{Accept:'application/json'}});}finally{clearTimeout(timeout);}
       if(!response.ok)throw Error('No se encontró un registro disponible en Crossref. Puedes introducir los datos manualmente.');
-      const d=(await response.json()).message;if(!d||!Array.isArray(d.title)||!d.title[0])throw Error('El registro no contiene un título utilizable.');
+      const d=(await response.json()).message;
+      if(M.doiUrl($('apa-doi').value)!==doi){target.textContent='El DOI cambió durante la consulta. Vuelve a consultar con el DOI actual.';return;}
+      if(!d||!Array.isArray(d.title)||!d.title[0])throw Error('El registro no contiene un título utilizable.');
       const sourceType={'journal-article':'journal','book-chapter':'chapter','book':'book','monograph':'book'}[d.type];if(!sourceType)throw Error('El registro tiene un tipo de fuente no admitido para importación automática. Completa el formato correcto manualmente.');
       for(const key of apaKeys)if(key!=='doi')$('apa-'+key).value='';
       for(const key of ['noAuthor','noTitle','noDate','corporate'])$('apa-'+key).checked=false;
@@ -95,8 +97,8 @@
       $('apa-journal').value=d['container-title']?.[0]||'';$('apa-bookTitle').value=d['container-title']?.[0]||'';
       for(const k of ['volume','issue','publisher'])$('apa-'+k).value=d[k]||'';
       $('apa-pages').value=d.page||d['article-number']||'';$('apa-noDate').checked=false;$('apa-noAuthor').checked=false;$('apa-corporate').checked=false;
-      $('apa-fullDate').value='';apaFields();lastAPA=null;
-      target.textContent='Metadatos recuperados. Confirma autores, tipo de fuente, año y título con la obra; Crossref puede contener registros incompletos.';
+      $('apa-fullDate').value='';apaFields();lastAPA=null;markStale();
+      target.textContent='Metadatos recuperados. Confirma autores, tipo de fuente, año y título con la obra; Crossref puede contener registros incompletos. Genera de nuevo la referencia con los datos recuperados.';
     }catch(e){target.textContent=e.name==='AbortError'?'La consulta tardó demasiado. Puedes completar los campos manualmente.':e.message||'No se pudo consultar. Completa los campos manualmente.';}finally{button.disabled=false;}
   }
   let timer,audioContext,timerHistory=[];
